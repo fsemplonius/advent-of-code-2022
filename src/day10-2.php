@@ -7,7 +7,7 @@ $result = array ();
 $cycle = $valX = 1;
 
 function chkCycle($cycle, $valX, &$result) {
-  $result[$cycle-1] = (($valX+2) >= $cycle%40 and ($valX) <= $cycle%40) ? '#' : '.';
+  $result[$cycle-1] = ($valX+2 >= $cycle%40 and $valX <= $cycle%40) ? '#' : '.';
 }
 
 while ($s1=next($input)) {
