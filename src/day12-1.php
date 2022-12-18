@@ -1,5 +1,7 @@
 <?php
 
+// Based on BFS see wiki https://en.wikipedia.org/wiki/Breadth-first_search
+
 include 'day12PuzzleInput.php';
 $input = explode("\r\n", $s1);
 
