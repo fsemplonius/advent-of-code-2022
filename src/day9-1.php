@@ -11,7 +11,6 @@ $grid[$Tv] = array($Th => '#');
 while ($s1=next($input)) {
   list ($dir, $steps) = explode(' ', $s1);
   $first = true;
-//echo "here $s1\n";
   for ($i=0; $i<$steps; $i++) {
     // move H
     switch ($dir) {
@@ -61,14 +60,9 @@ while ($s1=next($input)) {
         $Th = $Hh;
       }
     }
-
-//    echo "x $s1 $Hh $Hv $Th $Tv\n";
-
     $grid[$Tv][$Th] = '#';
   }
 }
-
-//print_r($grid);
 
 $result = 0;
 foreach ($grid as $vert)
