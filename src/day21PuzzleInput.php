@@ -271,7 +271,7 @@ hssd: dtmh * phwn
 dlrj: 3
 lwst: 2
 mjzq: pmqg * mflm
-humn: 1
+humn: 105
 lqdc: 3
 rnzm: llbt + thnb
 pmhn: 4
